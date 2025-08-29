@@ -5,18 +5,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div>
+          <p>(1)mechanism to fetch all template-ids</p>
+          <p>(2)render template-ids as buttons</p>
+          <p>(3)clicking template-id fetches DATA feed, passing the template id as the <code>id</code> in the req body</p>
+        </div>
       </header>
     </div>
   );
